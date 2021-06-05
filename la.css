@@ -18,14 +18,7 @@ border:5px solid #231330;
 border-radius:24px;
 
 }
-.form{
-background-color:#231330;
-margin-left:100px;
-margin-right:100px;
-padding:10px;
-border:5px solid #8d6e11;
-border-radius:24px;
-}
+
 fieldset{
 float:left;
 background-color:rgba(0,0,0,0.1);
@@ -37,6 +30,7 @@ font-size:20px;
 input{
 background-color:transparent;
 border:2px solid #8d6e11;
+color:#8d6e11;
 
 }
 ul{
@@ -67,7 +61,7 @@ border:20px solid #8d6e11;
 }
 .image{
 width:800px;
-height:800px;
+height:700px;
 margin-left:250px;
 margin-right:100px;
 border:1px solid #8d6e11;
@@ -80,14 +74,38 @@ text-decoration:underlined;
 font-weight:bold;
 color:#8d6e11;
 }
-form{
-background-color:rgba(35,19,48,0.6);
-margin-right:70%;
+
+.form{
+background-color:#231330;
+margin-left:100px;
+margin-right:100px;
+padding:10px;
+border:5px solid #8d6e11;
+border-radius:24px;
+}
+
+
+.form2{
+background-color:rgba(35,19,48,0.75);
+margin-right:45%;
 color:#8d6e11;
 padding:10px;
 border:5px solid rgba(141,110,17,0.5);
 border-radius:24px;
 }
-::placeholder {
-  color: #8d6e11;
+select{
+background-color:rgba(35,19,48,0.6);
+margin-left:0px;
+background-color:transparent;
+color:#8d6e11;
+border:2px solid #8d6e11;
+}
+table ,th,td{
+ 
+  padding:0px;
+  background-color:transparent;
+  margin:0Px;
+  border-collapse:collapse;
+  
+  
 }
