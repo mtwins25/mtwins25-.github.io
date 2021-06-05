@@ -4,7 +4,7 @@ background-repeat:no-repeat;
 background-size:cover;
 background-attachment:fixed;
 }
-.intro{
+.intro,.int{
 background-color:#8d6e11;
 font-size:20px;
 font-family:saintgermain;
@@ -109,3 +109,11 @@ table ,th,td{
   
   
 }
+.container:after,.container:before{content:"";display:table;clear:both}
+.container
+
+
+
+
+.pic{position:relative}.pic .int{display:none}.pic:hover .int{display:inline-block}
+
