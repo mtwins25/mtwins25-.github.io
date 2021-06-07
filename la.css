@@ -106,7 +106,6 @@ table ,th,td{
   
 }
 .container:after,.container:before{content:"";display:table;clear:both}
-.container
 
 
 
