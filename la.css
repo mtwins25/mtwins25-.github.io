@@ -96,7 +96,7 @@ background-color:transparent;
 color:#8d6e11;
 border:2px solid #8d6e11;
 }
-table ,th,td{
+.image_table ,.image_table th,.image_table td{
  
   padding:0px;
   background-color:transparent;
@@ -104,6 +104,15 @@ table ,th,td{
   border-collapse:collapse;
   
   
+  
+  
+}
+.table_data ,.table_data th,.table_data td{
+ text-align:center;
+  padding:0px;
+  background-color:transparent;
+  margin:0Px;
+    
 }
 .container:after,.container:before{content:"";display:table;clear:both}
 
